@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 4a2247eac68b94b178db2e846c98d505
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7983121179744924599
+    second: onetonine_ancient_0
+  - first:
+      213: 1233163960403265922
+    second: onetonine_ancient_1
+  - first:
+      213: -6430748629629175510
+    second: onetonine_ancient_2
+  - first:
+      213: 6381399590146727740
+    second: onetonine_ancient_3
+  - first:
+      213: -484366901713726770
+    second: onetonine_ancient_4
+  - first:
+      213: -9062410205898344566
+    second: onetonine_ancient_5
+  - first:
+      213: -4033064930053403618
+    second: onetonine_ancient_6
+  - first:
+      213: 8324433333987252560
+    second: onetonine_ancient_7
+  - first:
+      213: 5869088596025299648
+    second: onetonine_ancient_8
+  - first:
+      213: 5368214574201864700
+    second: onetonine_ancient_9
+  - first:
+      213: 3398766515604540499
+    second: onetonine_ancient_10
+  - first:
+      213: 7019203189472868912
+    second: onetonine_ancient_11
+  - first:
+      213: 457163627545314824
+    second: onetonine_ancient_12
+  - first:
+      213: 9050949651794803756
+    second: onetonine_ancient_13
+  - first:
+      213: 5407894955305180375
+    second: onetonine_ancient_14
+  - first:
+      213: 9064844393937179186
+    second: onetonine_ancient_15
+  - first:
+      213: 4876296091885119048
+    second: onetonine_ancient_16
+  - first:
+      213: -7783583168391782025
+    second: onetonine_ancient_17
+  - first:
+      213: -6750420686823823921
+    second: onetonine_ancient_18
+  - first:
+      213: -6930558823439058350
+    second: onetonine_ancient_19
+  - first:
+      213: 2248817973750824736
+    second: onetonine_ancient_20
+  - first:
+      213: -4506269323187191456
+    second: onetonine_ancient_21
+  - first:
+      213: -8375023738788136805
+    second: onetonine_ancient_22
+  - first:
+      213: 6189792198391939031
+    second: onetonine_ancient_23
+  - first:
+      213: -8718207723461127473
+    second: onetonine_ancient_24
+  - first:
+      213: -7594988530871885831
+    second: onetonine_ancient_25
+  - first:
+      213: 1013432020526529751
+    second: onetonine_ancient_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: onetonine_ancient_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 91
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c086a5591463190800000000000000
+      internalID: -7983121179744924599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 91
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28986a1a6141d1110800000000000000
+      internalID: 1233163960403265922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 91
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a297f13613461c6a0800000000000000
+      internalID: -6430748629629175510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 91
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fd48cfd194f8850800000000000000
+      internalID: 6381399590146727740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 91
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec295628ede2749f0800000000000000
+      internalID: -484366901713726770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 91
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87fd84bee9db3280800000000000000
+      internalID: -9062410205898344566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 91
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cc41070dca708c0800000000000000
+      internalID: -4033064930053403618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 91
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0591bb43304568370800000000000000
+      internalID: 8324433333987252560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_8
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 91
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c252697bf0337150800000000000000
+      internalID: 5869088596025299648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 50
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1806596babf7a40800000000000000
+      internalID: 5368214574201864700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 50
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cc9157328da2f20800000000000000
+      internalID: 3398766515604540499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab1da8c18396160800000000000000
+      internalID: 7019203189472868912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 50
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8064118a5eb285600800000000000000
+      internalID: 457163627545314824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 50
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cbc2b11ce6b9d70800000000000000
+      internalID: 9050949651794803756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 50
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc97914fc3bc0b40800000000000000
+      internalID: 5407894955305180375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_15
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 50
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23211dcd2fbcccd70800000000000000
+      internalID: 9064844393937179186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 50
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8462078b5751ca340800000000000000
+      internalID: 4876296091885119048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 50
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7716c48f8582bf390800000000000000
+      internalID: -7783583168391782025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 9
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ea6d8620b152a0800000000000000
+      internalID: -6750420686823823921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_19
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a37f14875b1df90800000000000000
+      internalID: -6930558823439058350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 9
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f7ee94808653f10800000000000000
+      internalID: 2248817973750824736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_21
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 9
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06100310de38671c0800000000000000
+      internalID: -4506269323187191456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_22
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 9
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98b1184840f5cb80800000000000000
+      internalID: -8375023738788136805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_23
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 9
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfb2a2a53f86e550800000000000000
+      internalID: 6189792198391939031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 9
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2580d3444b20780800000000000000
+      internalID: -8718207723461127473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_25
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 9
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff1730db2e299690800000000000000
+      internalID: -7594988530871885831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: onetonine_ancient_26
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 9
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc7d73ad0f601e00800000000000000
+      internalID: 1013432020526529751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
