@@ -1,1 +1,2 @@
 # mahjong
+counter only
