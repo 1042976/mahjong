@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class CounterPanel : MonoBehaviour
+public class CounterPanelUI : MonoBehaviour
 {
     private char[] typeOfCards;
     private bool visible;
     public Vector3 lefttop, xinterval, yinterval;
     public GameObject counterunit;
-    public GameObject virtualKeyBoard;
     public Sprite[] digits; // index->digit: 0-zero, 1-one, 2-two, 3-three, 4-four
     public Sprite[] digits_color;
     [HideInInspector]
@@ -22,7 +21,8 @@ public class CounterPanel : MonoBehaviour
         //visible = false;
         SetVisible();
         typeOfCards = new char[4];
-        for (int i = 0; i < typeOfCards.Length; i++) {
+        for (int i = 0; i < typeOfCards.Length; i++)
+        {
             typeOfCards[i] = (char)('0' + i);
         }
     }
@@ -101,7 +101,8 @@ public class CounterPanel : MonoBehaviour
         //gameObject.GetComponent<Renderer>().enabled = visible;
     }
 
-    public void ResetEWSNKFZ() {
+    public void ResetEWSNKFZ()
+    {
         OnResetNum(typeOfCards[0]);
     }
     public void ResetFromOneToNine_I()
@@ -117,20 +118,15 @@ public class CounterPanel : MonoBehaviour
         OnResetNum(typeOfCards[3]);
     }
 
-    public void SetActiveOrNot() {
+    public void SetActiveOrNot()
+    {
         if (gameObject.activeSelf)
         {
             gameObject.SetActive(false);
         }
-        else {
+        else
+        {
             gameObject.SetActive(true);
         }
-    }
-    public void CreateVirtualKeyBoard(Vector3 position) {
-        GameObject _virtualKeyBoard;
-        _virtualKeyBoard = Instantiate(virtualKeyBoard);
-
-        _virtualKeyBoard.transform.SetParent(GameObject.Find("Canvas").transform, false);
-        Debug.Log("CreateVirtualKeyBoard()");
     }
 }

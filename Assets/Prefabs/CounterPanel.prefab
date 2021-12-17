@@ -99,5 +99,17 @@ MonoBehaviour:
   xinterval: {x: 1.8, y: 0, z: 0}
   yinterval: {x: 0, y: -2, z: 0}
   counterunit: {fileID: 9016024405855780445, guid: f8e5a32f8c867412d96143c4f9c539ae, type: 3}
-  digits: []
+  virtualKeyBoard: {fileID: 3857412719996774621, guid: ead3e9720ba654073b165a268adefc0c, type: 3}
+  digits:
+  - {fileID: 21300000, guid: 72903a0c5d0b845a08933fb8821189bf, type: 3}
+  - {fileID: 21300000, guid: 24d43864316074e18981772a21c3f170, type: 3}
+  - {fileID: 21300000, guid: 20e4d72b1b8c848da93abcb7ed8a7d31, type: 3}
+  - {fileID: 21300000, guid: a3c0acd504cee459cb6cdea842a8186d, type: 3}
+  - {fileID: 21300000, guid: 2bc5569e73c51476e88c57c58a4aa1de, type: 3}
+  digits_color:
+  - {fileID: 21300000, guid: a01c1608a408e4b3e84da003f93075bd, type: 3}
+  - {fileID: 21300000, guid: 43cfacb0d6cad4164a606322dfd1b462, type: 3}
+  - {fileID: 21300000, guid: 2fffd57033b1a460b897136ce190629b, type: 3}
+  - {fileID: 21300000, guid: 796ce2eaaa7e34b21922190e42c8239b, type: 3}
+  - {fileID: 21300000, guid: 48f30316f299747528f13022cef458e1, type: 3}
   counterunits: []
