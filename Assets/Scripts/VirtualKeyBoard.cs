@@ -107,7 +107,7 @@ public class VirtualKeyBoard : MonoBehaviour
     }
 
     public void Done() {
-        tarNumPanel.SetCount(System.Int32.Parse(inputField.GetComponent<InputField>().text));
+        tarNumPanel.COUNT = System.Int32.Parse(inputField.GetComponent<InputField>().text);
     }
 
 }

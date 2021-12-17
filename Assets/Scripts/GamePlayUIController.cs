@@ -40,7 +40,7 @@ public class GamePlayUIController : MonoBehaviour
 
         virtualKeyBoard.transform.position = np.transform.position+_offsetFromMouseToKeyBoard;
         virtualKeyBoard.GetComponent<VirtualKeyBoard>().tarNumPanel = np;
-        virtualKeyBoard.GetComponent<VirtualKeyBoard>().inputField.text = np.count.ToString();
+        virtualKeyBoard.GetComponent<VirtualKeyBoard>().inputField.text = np.COUNT.ToString();
     }
 
 

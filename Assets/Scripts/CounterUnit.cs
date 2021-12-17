@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CounterUnit : MonoBehaviour
 {
-    private int _count;
+    public NumPanel np;
     private char _typeOfCard;
     // Start is called before the first frame update
     private void Awake()
@@ -14,8 +14,6 @@ public class CounterUnit : MonoBehaviour
     }
     void Start()
     {
-        _count = DataCenter.DC.numOfCards;
-        BroadcastMessage("SetCount", _count);
     }
 
     // Update is called once per frame
@@ -26,24 +24,14 @@ public class CounterUnit : MonoBehaviour
     public void IncreaseByOne()
     {
         AddCount(1);
-        BroadcastMessage("SetCount", _count);
+
     }
     public void DecreaseByOne()
     {
-        Debug.Log("DecreaseByOne()");
         AddCount(-1);
-        BroadcastMessage("SetCount", _count);
     }
     public void AddCount(int operand) {
-        _count += operand;
-        if (_count < 0)
-        {
-            _count = 0;
-        }
-        else if (_count > 4) {
-            _count = 4;
-        }
-        BroadcastMessage("SetCount", _count);
+        np.COUNT += operand;
     }
 
     private void SetVisible(bool visible) {

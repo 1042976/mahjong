@@ -5,12 +5,14 @@ using UnityEngine.UI;
 public class NumPanel : MonoBehaviour
 {
     public GameObject N;
-    public int count;
+    private int cur_count;
+    private int next_count;
     public delegate void ShowVirtualPKeyBoard(NumPanel np);
     public static event ShowVirtualPKeyBoard OnShowVirtualPKeyBoard;
     private void Awake()
     {
-        count = 4;
+        next_count = 4;
+        cur_count = 0;
     }
     // Start is called before the first frame update
     void Start()
@@ -21,7 +23,21 @@ public class NumPanel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (next_count != cur_count) {
+
+            if (next_count < 0)
+            {
+                next_count = 0;
+            }
+            else if (next_count > 4)
+            {
+                next_count = 4;
+            }
+            cur_count = next_count;
+            CounterPanelUI counterPanel = GameObject.Find("CounterPanelUI").GetComponent<CounterPanelUI>();
+            GetComponent<Image>().sprite = counterPanel.digits_color[next_count];
+            N.GetComponent<Image>().sprite = counterPanel.digits[next_count];
+        }
     }
 
     private void SetVisible(bool visible)
@@ -33,10 +49,18 @@ public class NumPanel : MonoBehaviour
     }
 
     public void SetCount(int _count) {
-        CounterPanelUI counterPanel = GameObject.Find("CounterPanelUI").GetComponent<CounterPanelUI>();
-        GetComponent<Image>().sprite = counterPanel.digits_color[_count];
-        N.GetComponent<Image>().sprite = counterPanel.digits[_count];
-        count = _count;
+        //if (_count < 0)
+        //{
+        //    _count = 0;
+        //}
+        //else if (_count > 4)
+        //{
+        //    _count = 4;
+        //}
+        //CounterPanelUI counterPanel = GameObject.Find("CounterPanelUI").GetComponent<CounterPanelUI>();
+        //GetComponent<Image>().sprite = counterPanel.digits_color[_count];
+        //N.GetComponent<Image>().sprite = counterPanel.digits[_count];
+        //count = _count;
     }
 
     public void InputNum() {
@@ -50,4 +74,10 @@ public class NumPanel : MonoBehaviour
     //        GameObject.Find("CounterPanel").GetComponent<CounterPanel>().CreateVirtualKeyBoard(this.gameObject.transform.position);
     //    }
     //}
+
+    public int COUNT
+    {
+        get { return next_count; }
+        set { next_count = value; }
+    }
 }
