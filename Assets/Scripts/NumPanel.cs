@@ -5,8 +5,13 @@ using UnityEngine.UI;
 public class NumPanel : MonoBehaviour
 {
     public GameObject N;
-    public delegate void ShowVirtualPKeyBoard(Vector3 tarPos);
+    public int count;
+    public delegate void ShowVirtualPKeyBoard(NumPanel np);
     public static event ShowVirtualPKeyBoard OnShowVirtualPKeyBoard;
+    private void Awake()
+    {
+        count = 4;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -27,15 +32,15 @@ public class NumPanel : MonoBehaviour
         }
     }
 
-    private void SetCount(int _count) {
+    public void SetCount(int _count) {
         CounterPanelUI counterPanel = GameObject.Find("CounterPanelUI").GetComponent<CounterPanelUI>();
         GetComponent<Image>().sprite = counterPanel.digits_color[_count];
         N.GetComponent<Image>().sprite = counterPanel.digits[_count];
-        
+        count = _count;
     }
 
     public void InputNum() {
-        OnShowVirtualPKeyBoard(gameObject.transform.position);
+        OnShowVirtualPKeyBoard(this);
     }
     //private void OnMouseOver()
     //{

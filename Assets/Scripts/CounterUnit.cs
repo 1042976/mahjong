@@ -15,6 +15,7 @@ public class CounterUnit : MonoBehaviour
     void Start()
     {
         _count = DataCenter.DC.numOfCards;
+        BroadcastMessage("SetCount", _count);
     }
 
     // Update is called once per frame

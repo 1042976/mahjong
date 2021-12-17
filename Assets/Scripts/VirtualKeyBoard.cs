@@ -4,11 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class VirtualKeyBoard : MonoBehaviour
 {
-    public GameObject inputField;
+    public InputField inputField;
+    public NumPanel tarNumPanel;
     // Start is called before the first frame update
+
     void Start()
     {
-        inputField.GetComponent<InputField>().text = "hhhhh";
+        
     }
     // Update is called once per frame
     void Update()
@@ -104,6 +106,9 @@ public class VirtualKeyBoard : MonoBehaviour
         }
     }
 
+    public void Done() {
+        tarNumPanel.SetCount(System.Int32.Parse(inputField.GetComponent<InputField>().text));
+    }
 
 }
 
