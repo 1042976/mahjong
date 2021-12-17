@@ -36,7 +36,7 @@ public class CounterPanel : MonoBehaviour
         //createCounterUnits(ref i, ref DataCenter.DC.FromOneToNine_I, lefttop+yinterval, xinterval);
         //createCounterUnits(ref i, ref DataCenter.DC.FromOneToNine_II, lefttop+2*yinterval, xinterval);
         //createCounterUnits(ref i, ref DataCenter.DC.FromOneToNine_III, lefttop+3*yinterval, xinterval);
-        createCounterUnits(ref i, ref DataCenter.DC.EWSNKFZ, 0, 3, lefttop + DataCenter.DC.FromOneToNine_I.Length * xinterval + 0.5f * yinterval, xinterval, typeOfCards[0]);
+            createCounterUnits(ref i, ref DataCenter.DC.EWSNKFZ, 0, 3, lefttop + DataCenter.DC.FromOneToNine_I.Length * xinterval + 0.5f * yinterval, xinterval, typeOfCards[0]);
         createCounterUnits(ref i, ref DataCenter.DC.EWSNKFZ, 4, 6, lefttop + DataCenter.DC.FromOneToNine_I.Length * xinterval + 1.5f * yinterval + 0.5f * xinterval, xinterval, typeOfCards[0]);
         createCounterUnits(ref i, ref DataCenter.DC.FromOneToNine_I, lefttop, xinterval, typeOfCards[1]);
         createCounterUnits(ref i, ref DataCenter.DC.FromOneToNine_II, lefttop + yinterval, xinterval, typeOfCards[2]);

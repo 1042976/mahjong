@@ -14,13 +14,12 @@ public class GamePlayUIController : MonoBehaviour
         NumPanel.OnShowVirtualPKeyBoard += ShowVirtualKeyBoard;
     }
     public void ShowOrHideCounterPanel() {
-        GameObject panel = GameObject.Find("CounterPanel");
-        if (panel.activeSelf)
+        if (counterPanel.activeSelf)
         {
-            panel.SetActive(false);
+            counterPanel.SetActive(false);
         }
         else {
-            panel.SetActive(true);
+            counterPanel.SetActive(true);
         }
         
         //if (panel.GetComponent<Renderer>().enabled)
@@ -49,4 +48,6 @@ public class GamePlayUIController : MonoBehaviour
         virtualKeyBoard.GetComponent<VirtualKeyBoard>().tarNumPanel = np;
         virtualKeyBoard.GetComponent<VirtualKeyBoard>().inputField.text = np.count.ToString();
     }
+
+
 }

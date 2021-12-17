@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 972955955096529281}
   - component: {fileID: 2928836324411954659}
   - component: {fileID: 1859915703267520739}
+  - component: {fileID: 679254745}
   m_Layer: 5
   m_Name: CounterPanelUI
   m_TagString: Untagged
@@ -76,6 +77,35 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &679254745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594607299286552625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98f8945beea0435ab4feb814118315c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lefttop: {x: -979, y: 335, z: 0}
+  xinterval: {x: 109, y: 0, z: 0}
+  yinterval: {x: 0, y: -182, z: 0}
+  counterunit: {fileID: 1630533082406541053, guid: 7e83f9e103bfe4c6299004cc39f09c7a, type: 3}
+  digits:
+  - {fileID: 21300000, guid: 72903a0c5d0b845a08933fb8821189bf, type: 3}
+  - {fileID: 21300000, guid: 24d43864316074e18981772a21c3f170, type: 3}
+  - {fileID: 21300000, guid: 20e4d72b1b8c848da93abcb7ed8a7d31, type: 3}
+  - {fileID: 21300000, guid: a3c0acd504cee459cb6cdea842a8186d, type: 3}
+  - {fileID: 21300000, guid: 2bc5569e73c51476e88c57c58a4aa1de, type: 3}
+  digits_color:
+  - {fileID: 21300000, guid: 43cfacb0d6cad4164a606322dfd1b462, type: 3}
+  - {fileID: 21300000, guid: 43cfacb0d6cad4164a606322dfd1b462, type: 3}
+  - {fileID: 21300000, guid: 2fffd57033b1a460b897136ce190629b, type: 3}
+  - {fileID: 21300000, guid: 796ce2eaaa7e34b21922190e42c8239b, type: 3}
+  - {fileID: 21300000, guid: 48f30316f299747528f13022cef458e1, type: 3}
+  counterunits: []
 --- !u!1 &8094705983094838330
 GameObject:
   m_ObjectHideFlags: 0
@@ -276,8 +306,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CounterPanel, Assembly-CSharp
+      - m_Target: {fileID: 679254745}
+        m_TargetAssemblyTypeName: CounterPanelUI, Assembly-CSharp
         m_MethodName: ResetEWSNKFZ
         m_Mode: 1
         m_Arguments:
@@ -409,8 +439,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CounterPanel, Assembly-CSharp
+      - m_Target: {fileID: 679254745}
+        m_TargetAssemblyTypeName: CounterPanelUI, Assembly-CSharp
         m_MethodName: ResetFromOneToNine_II
         m_Mode: 1
         m_Arguments:
@@ -461,7 +491,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -337.73694, y: 87.323204}
+  m_AnchoredPosition: {x: -337.73694, y: 87.32321}
   m_SizeDelta: {x: 643.5, y: 141.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8094705983728466598
@@ -819,8 +849,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CounterPanel, Assembly-CSharp
+      - m_Target: {fileID: 679254745}
+        m_TargetAssemblyTypeName: CounterPanelUI, Assembly-CSharp
         m_MethodName: ResetFromOneToNine_III
         m_Mode: 1
         m_Arguments:
@@ -952,8 +982,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CounterPanel, Assembly-CSharp
+      - m_Target: {fileID: 679254745}
+        m_TargetAssemblyTypeName: CounterPanelUI, Assembly-CSharp
         m_MethodName: ResetFromOneToNine_I
         m_Mode: 1
         m_Arguments:
