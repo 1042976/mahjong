@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GamePlayUIController : MonoBehaviour
 {
@@ -13,23 +14,16 @@ public class GamePlayUIController : MonoBehaviour
         CreateVirtualKeyBoard();
         NumPanel.OnShowVirtualPKeyBoard += ShowVirtualKeyBoard;
     }
-    public void ShowOrHideCounterPanel() {
+    public void ShowOrHideCounterPanel(Text t) {
         if (counterPanel.activeSelf)
         {
+            t.text = "计数器";
             counterPanel.SetActive(false);
         }
         else {
+            t.text = "返回";
             counterPanel.SetActive(true);
         }
-        
-        //if (panel.GetComponent<Renderer>().enabled)
-        //{
-        //    panel.GetComponent<Renderer>().enabled = false;
-        //}
-        //else
-        //{
-        //    panel.GetComponent<Renderer>().enabled = true;
-        //}
     }
 
     public void CreateVirtualKeyBoard() {
